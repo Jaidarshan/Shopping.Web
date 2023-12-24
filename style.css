@@ -1,0 +1,174 @@
+body, h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:white;
+  
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: #333;
+}
+ 
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+.welcome{
+  background: linear-gradient(rgba(48, 46, 46, 0.5), rgba(58, 50, 50, 0.5)), url('https://geekflare.com/wp-content/uploads/2022/12/Apple.png');
+  background-size: cover;
+  background-position: center;
+  height: 80Vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+    
+.content{
+        background-color: #333;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 20px;
+        max-width: 400px; 
+        text-align: left;
+    }
+.content:hover{
+  transform: scale(1.02);
+}
+.content h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    #explore{
+      background-color: rgb(162, 0, 255);
+      color:#fff;
+      width: 4cm;
+      height: 1cm;
+      font-size: 20px;
+      box-shadow: 4px 4px 4px #030000;
+      border-radius: 10px;
+      border: none;
+    }
+    .products{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+.product{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    color: rgb(79, 108, 79);
+}
+.product img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.ends{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.end{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.end p{
+  color: darkgreen;
+}
+#explore:hover {
+  filter: brightness(0.8);
+  color: #fff;
+}
+.c {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.d{
+  display: flex;
+  justify-content: center;
+}
+.c:hover {
+  background-color: #4f76f4;
+}
+.product:hover{
+  transform: scale(1.04);
+}
+.product h2{
+  font-family: 'Mina', sans-serif;
+}
+h1{
+  font-family: 'Hedvig Letters Serif', serif;
+}
+#contact h1,#about h1{
+  color:white;
+}
+.product{
+  transition: transform 0.3s ease-in-out;
+}
